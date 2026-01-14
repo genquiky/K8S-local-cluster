@@ -8,13 +8,23 @@ Requirements for this test environment:
 * Docker Desktop (v4.15.0)
 * Minikube (v1.37.0)
 
+Glossary:
+[1. Creating a local cluster with 1 node (Control Plane)](#Creating-a-local-cluster-with-1-node-(Control-Plane))
+  [1.1 Installing Docker Desktop for mac](#1_1)
+  [1.2 Installing Minikube](#1.2 Installing Minikube)
+  [1.3 Run Minikube](#1.3)
+  [1.4 Checking the status](#1.4)
+  [1.5 Checking the cluster](#1.5)
+  [1.6 Stopping the cluster](#1-6)
+
 <br>
 
 ## 1. Creating a local cluster with 1 node (Control Plane)
 
 Steps:
 
-<b>1.1 Installing Docker Desktop for mac</b>
+<b><a id="1_1" 1.1 Installing Docker Desktop for mac </a></b>
+
 
 <img width="872" height="auto" alt="image" src="https://github.com/user-attachments/assets/f8846faa-6ce4-4bc9-9902-466afd7938d1" />
 
@@ -24,7 +34,7 @@ Steps:
 <br>
 
 <b>1.2 Installing Minikube</b>
-
+<a id="1_2"></a>
 <img width="834" height="auto" alt="image" src="https://github.com/user-attachments/assets/a387d924-1b5a-490e-9e81-69dc17cd2cd6" />
 
 <br>
@@ -33,6 +43,7 @@ Steps:
 <br>
 
 <b>1.3 Run Minikube</b>
+<a id="1.3"></a>
 
 The minikube <strong>start</strong> command generates a default minikube cluster with the standard specifications and it will store these specs so that we can restart the default cluster whenever desired. The object that stores the specifications of our cluster is called 
 'profile', in this case named 'minikube'.
@@ -50,6 +61,7 @@ we will deploy to the Kubernetes cluster.
 <br>
 
 <b>1.4 Checking the status</b>
+<a id="1.4"></a>
 
 <img width="350" height="auto" alt="image" src="https://github.com/user-attachments/assets/1a46ef21-a304-4522-bf3f-23d5ab6f05ed" />
 
@@ -59,6 +71,7 @@ we will deploy to the Kubernetes cluster.
 <br>
 
 <b>1.5 Checking the cluster</b>
+<a id="1.5"></a>
 
 The minikube <strong>profile list</strong> command allows us to view the status of all our clusters in a table formatted output.
 The table displays the number of nodes: 1 by default, the private IP address of the minikube cluster's control plane 'Docker' and other outputs.
@@ -71,6 +84,7 @@ The table displays the number of nodes: 1 by default, the private IP address of 
 <br>
 
 <b>1.6 Stopping the cluster</b>
+<a id="1-6"></a>
 
 <img width="556" height="81" alt="image" src="https://github.com/user-attachments/assets/fe285924-6da5-46f9-afae-3fb9555db1ec" />
 
