@@ -11,12 +11,12 @@ Requirements for this test environment:
 Glossary:
 
 [1. Creating a local cluster with 1 node (Control Plane)](#one)
->[1.1 Installing Docker Desktop for mac](#1-1)
->[1.2 Installing Minikube](#1-2)
->[1.3 Run Minikube](#1-3)
->[1.4 Checking the status](#1-4)
->[1.5 Checking the cluster](#1-5)
->[1.6 Stopping the cluster](#1-6)
+>[1.1 Installing Docker Desktop for mac](#1-1)<br>
+>[1.2 Installing Minikube](#1-2)<br>
+>[1.3 Run Minikube](#1-3)<br>
+>[1.4 Checking the status](#1-4)<br>
+>[1.5 Checking the cluster](#1-5)<br>
+>[1.6 Stopping the cluster](#1-6)<br>
   
 
 <br>
@@ -39,6 +39,7 @@ Steps:
 
 <b>1.2 Installing Minikube</b>
 <a id="1-2"></a>
+
 <img width="834" height="auto" alt="image" src="https://github.com/user-attachments/assets/a387d924-1b5a-490e-9e81-69dc17cd2cd6" />
 
 <br>
