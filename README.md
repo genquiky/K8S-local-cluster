@@ -17,12 +17,18 @@ Glossary:
 >[1.4 Checking the status](#1-4)<br>
 >[1.5 Checking the cluster](#1-5)<br>
 >[1.6 Stopping the cluster](#1-6)<br>
+
+[2. Creating a new cluster with 2 nodes](#two)
+>[2.1 Adding a new cluster](#2-1)<br>
+>[2.2 Checking the new cluster](#2-2)<br>
+>[2.3 Decommissioning the cluster](#2-3)<br>
   
 
 <br>
 <a id="one"></a>
 
 ## 1. Creating a local cluster with 1 node (Control Plane)
+
 
 Steps:
 
@@ -99,11 +105,14 @@ The table displays the number of nodes: 1 by default, the private IP address of 
 <br>
 <br>
 
+<a id="two"></a>
+
 ## 2. Creating a new cluster with 2 nodes
 In this exercise a cluster with 2 nodes were created (Control Plane + Worker node) using the Docker runtime, and the Kubernetes <b>containerd</b> runtime.
 The minikube start command allows us to create custom profiles with the --profile or -p flags.
 
 <b>2.1 Adding a new cluster</b>
+<a id="2-1"></a>
 
 Driver: docker<br>
 Nodes: 2<br>
@@ -120,6 +129,7 @@ Profile name: 'genbox'<br>
 <br>
 
 <b>2.2 Checking the new cluster</b>
+<a id="2-2"></a>
 
 <img width="834" height="auto" alt="image" src="https://github.com/user-attachments/assets/cc5590cd-aade-49eb-a6bc-0b8cd528bc67" />
 
@@ -134,6 +144,7 @@ Profile name: 'genbox'<br>
 <br>
 
 <b>2.3 Decommissioning the cluster</b>
+<a id="2-3"></a>
 
 If a cluster is no longer needed, the container can be easily removed.
 
