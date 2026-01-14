@@ -19,6 +19,7 @@ Glossary:
 
 <br>
 <a id="one"></a>
+
 ## 1. Creating a local cluster with 1 node (Control Plane)
 
 Steps:
