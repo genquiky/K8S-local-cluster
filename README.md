@@ -22,6 +22,10 @@ Glossary:
 >[2.1 Adding a new cluster](#2-1)<br>
 >[2.2 Checking the new cluster](#2-2)<br>
 >[2.3 Decommissioning the cluster](#2-3)<br>
+
+[3. GUI monitoring dashboards](#three)
+>[2.1 Adding a new cluster](#3-1)<br>
+>[2.2 Checking the new cluster](#3-2)<br>
   
 
 <br>
@@ -111,6 +115,7 @@ The table displays the number of nodes: 1 by default, the private IP address of 
 In this exercise a cluster with 2 nodes were created (Control Plane + Worker node) using the Docker runtime, and the Kubernetes <b>containerd</b> runtime.
 The minikube start command allows us to create custom profiles with the --profile or -p flags.
 
+
 <b>2.1 Adding a new cluster</b>
 <a id="2-1"></a>
 
@@ -156,9 +161,12 @@ If a cluster is no longer needed, the container can be easily removed.
 <br>
 <br>
 
+<a id="three"></a>
+
 ## 3. GUI monitoring dashboards
 
 <b>3.1 Minikube Dashboard</b>
+<a id="3-1"></a>
 
 By default a dashboard is included in the minikube tool (add-on).
 
@@ -175,6 +183,8 @@ By default a dashboard is included in the minikube tool (add-on).
 <br>
 
 <b>3.2 Using Docker Desktop</b>
+
+<a id="3-2"></a>
 
 <img width="834" height="auto" alt="image" src="https://github.com/user-attachments/assets/df054a14-3c73-49a5-8f9c-ebc8ae8b29f7" />
 
