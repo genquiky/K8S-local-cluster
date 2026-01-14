@@ -15,11 +15,14 @@ Steps:
 
 <b>1.1 Installing Docker Desktop for mac</b>
 
+<img width="872" height="auto" alt="image" src="https://github.com/user-attachments/assets/f8846faa-6ce4-4bc9-9902-466afd7938d1" />
 <br>
 <br>
 <br>
 
 <b>1.2 Installing Minikube</b>
+
+<img width="834" height="auto" alt="image" src="https://github.com/user-attachments/assets/a387d924-1b5a-490e-9e81-69dc17cd2cd6" />
 
 <br>
 <br>
@@ -31,13 +34,15 @@ The minikube <b>start</b> command generates a default minikube cluster with the 
 
 Once the node is provisioned, it bootstraps the Kubernetes control plane (with the default kubeadm tool), and it installs the latest version of the default container runtime -Docker-. That will serve as a running environment for the containerized applications we will deploy to the Kubernetes cluster.
 
+<img width="834" height="auto" alt="image" src="https://github.com/user-attachments/assets/7e3c7414-8646-4ba8-9a24-ec76cf33ed8b" />
+
 <br>
 <br>
 <br>
 
 <b>1.4 Cheking the status</b>
 
-
+<img width="350" height="auto" alt="image" src="https://github.com/user-attachments/assets/1a46ef21-a304-4522-bf3f-23d5ab6f05ed" />
 
 <br>
 <br>
@@ -48,9 +53,13 @@ Once the node is provisioned, it bootstraps the Kubernetes control plane (with t
 The minikube <b>profile list</b> command allows us to view the status of all our clusters in a table formatted output.
 The table displays the number of nodes: 1 by default, the private IP address of the minikube cluster's control plane 'Docker' and other outputs.
 
+<img width="2372" height="auto" alt="image" src="https://github.com/user-attachments/assets/47062acf-ddc6-49d8-a8f9-df321050ecfc" />
+
+<br>
+<br>
+<br>
+
 <b>1.6 Stopping the cluster</b>
-
-
 
 
 ## 2. Creating a new cluster with 2 nodes
@@ -65,9 +74,22 @@ Runtime: containerd<br>
 CNI: calico<br>
 Profile name: 'genbox'<br>
 
+<img width="834" height="auto" alt="image" src="https://github.com/user-attachments/assets/e776851b-d622-4497-8eee-743a9e0ce889" />
+
+<br>
+<br>
+<br>
+
+<img width="834" height="auto" alt="image" src="https://github.com/user-attachments/assets/cc5590cd-aade-49eb-a6bc-0b8cd528bc67" />
+
+<img width="400" height="auto" alt="image" src="https://github.com/user-attachments/assets/ffc9bf1b-f1a2-4586-8b96-abbd7736a94f" />
+
 <b>2.2 Decommissioning a cluster</b>
 
 If a cluster is no longer needed, the container can be easily removed.
+
+<img width="500" height="auto" alt="image" src="https://github.com/user-attachments/assets/d4c0788f-da4b-4316-9a5e-01b456bfbb01" />
+
 
 ## 3. GUI monitoring dashboards
 
@@ -75,7 +97,13 @@ If a cluster is no longer needed, the container can be easily removed.
 
 By default a dashboard is included in the minikube tool (add-on).
 
+<img width="650" height="auto" alt="image" src="https://github.com/user-attachments/assets/29055509-b63a-4ca1-8cc3-73fe1ac4f726" />
+
+
+<img width="834" height="auto" alt="image" src="https://github.com/user-attachments/assets/de257805-4b30-413a-af4a-bbdf124c9b42" />
 
 
 <b>3.2 Docker Desktop</b>
+
+<img width="834" height="auto" alt="image" src="https://github.com/user-attachments/assets/df054a14-3c73-49a5-8f9c-ebc8ae8b29f7" />
 
