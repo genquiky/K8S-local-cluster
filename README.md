@@ -1,6 +1,6 @@
 
-# KUBERNETES
-Part One:
+# KUBERNETES Part II
+
 In this practical exercise, a learning environment was created using and old macOS workstation to install an all-in-one local Kubernetes cluster with worker nodes -isolated by a Docker container-, and using Minikube to manage the clusters.
 
 Requirements for this test environment:
