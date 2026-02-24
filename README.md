@@ -2,7 +2,7 @@
 
 # Part I: Cluster and Nodes creation
 
-In this practical exercise, a learning environment was created using and old macOS workstation to install an all-in-one local Kubernetes cluster with worker nodes -isolated by a Docker container-, and using Minikube to manage the clusters.
+In this practical exercise, a learning environment was created using and old macOS workstation to install an all-in-one local Kubernetes `cluster` with worker `nodes` -isolated by a Docker container-, and using `minikube` to manage the clusters.
 
 Requirements for this test environment:
 
@@ -63,10 +63,10 @@ Steps:
 <b>1.3 Run Minikube</b>
 <a id="1-3"></a>
 
-The minikube <strong>start</strong> command generates a default minikube cluster with the standard specifications and it will store these specs so that we can restart the default cluster whenever desired. The object that stores the specifications of our cluster is called 
-'profile', in this case named 'minikube'.
+The minikube `start` command generates a default minikube cluster with the standard specifications and it will store these specs so that we can restart the default cluster whenever desired. The object that stores the specifications of our cluster is called 
+`profile`, in this case named `minikube`.
 
-Once the node is provisioned, it bootstraps the Kubernetes control plane (with the default kubeadm tool), and it installs the latest version of the default container runtime -Docker-. That will serve as a running environment for the containerized applications 
+Once the node is provisioned, it bootstraps the Kubernetes `control plane` (with the default `kubeadm` tool), and it installs the latest version of the default container runtime `docker`. That will serve as a running environment for the containerized applications 
 we will deploy to the Kubernetes cluster.
 
 <br>
@@ -91,7 +91,7 @@ we will deploy to the Kubernetes cluster.
 <b>1.5 Checking the cluster</b>
 <a id="1-5"></a>
 
-The minikube <strong>profile list</strong> command allows us to view the status of all our clusters in a table formatted output.
+The `minikube profile list` command allows us to view the status of all our clusters in a table formatted output.
 The table displays the number of nodes: 1 by default, the private IP address of the minikube cluster's control plane 'Docker' and other outputs.
 
 <img width="2372" height="auto" alt="image" src="https://github.com/user-attachments/assets/47062acf-ddc6-49d8-a8f9-df321050ecfc" />
@@ -115,8 +115,8 @@ The table displays the number of nodes: 1 by default, the private IP address of 
 <a id="two"></a>
 
 ## 2. Creating a new cluster with 2 nodes
-In this exercise a cluster with 2 nodes were created (Control Plane + Worker node) using the Docker runtime, and the Kubernetes <b>containerd</b> runtime.
-The minikube start command allows us to create custom profiles with the --profile or -p flags.
+In this exercise a cluster with 2 nodes were created (`Control Plane` + `Worker node`) using the Docker runtime, and the Kubernetes `containerd` runtime.
+The minikube `start` command allows us to create custom profiles with the `--profile` or `-p` flags.
 
 
 <b>2.1 Adding a new cluster</b>
@@ -171,7 +171,7 @@ If a cluster is no longer needed, the container can be easily removed.
 <b>3.1 Minikube Dashboard</b>
 <a id="3-1"></a>
 
-By default a dashboard is included in the minikube tool (add-on).
+By default a `dashboard` is included in the minikube tool (add-on).
 
 <img width="650" height="auto" alt="image" src="https://github.com/user-attachments/assets/29055509-b63a-4ca1-8cc3-73fe1ac4f726" />
 
